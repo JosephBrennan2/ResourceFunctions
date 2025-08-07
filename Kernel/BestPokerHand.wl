@@ -129,7 +129,7 @@ ValidHandQ[hand] &&
 		Sort[
 			Counts[
 				StringPart[hand, 1]
-			],
+			]
 		]
 	] == {2, 3};
 QuadsQ[hand_List] :=

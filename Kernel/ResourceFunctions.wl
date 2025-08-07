@@ -4,5 +4,5 @@ Get[#]& /@ {
     "ResourceFunctions`ScrabbleScore`",
     "ResourceFunctions`BestPokerhand`",
     "ResourceFunctions`MakeChainmail`"
-  (* .m File Names. *)
+  (* .wl File Names. *)
 };
