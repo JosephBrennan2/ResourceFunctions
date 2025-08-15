@@ -1,4 +1,4 @@
-BeginPackage["ResourceFunctions`BestPokerHand`"];
+BeginPackage["ResourceFunctions`MakeChainmail`"];
 europeanGrid;
 europeanConnectors;
 european4In1Chainmail;
