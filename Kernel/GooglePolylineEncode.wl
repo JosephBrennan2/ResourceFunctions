@@ -1,9 +1,14 @@
+(* ::Package:: *)
+
 BeginPackage["ResourceFunctions`GooglePolylineEncode`"];
 EncodeCoordinate;
 EncodePosition;
 GooglePolylineEncode;
 Begin["`Private`"]
 Clear[EncodeCoordinate, EncodePosition, GooglePolylineEncode];
+EncodeCoordinate::usage = "Encode a single coordinate as a string in the Google polyline format";
+EncodePosition::usage = "Encode a latitude-longitude pair as a string in the Google polyline format";
+GooglePolylineEncode::usage = "Encode locations as a single string in the Google polyline format";
 EncodeCoordinate[coord_Real] :=
 Module[
 	{
